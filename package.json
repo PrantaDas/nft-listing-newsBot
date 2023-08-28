@@ -1,0 +1,21 @@
+{
+  "name": "tel-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "@opensea/stream-js": "^0.1.1",
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.12.2",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^3.0.1"
+  }
+}
