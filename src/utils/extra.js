@@ -1,3 +1,5 @@
+// help options in html format
+
 export const helpMessage = `
 <b>Available Commands:</b>
 <code>/start</code> - Begin the conversation
